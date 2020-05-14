@@ -5,12 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd client && npm run build",
-    "install-client": "cd client && npm install",
-    "heroku-postbuild": "npm run install-client && npm run build",
     "start": "node server.js",
-    "client": "cd client && npm start",
-    "dev": "\"nodemon server.js\" \"npm run client\""
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
@@ -20,5 +16,8 @@
     "express": "^4.17.1",
     "mongodb": "^2.2.36",
     "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "12.14.0"
   }
 }

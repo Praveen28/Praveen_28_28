@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./MainContainer.css";
 
+import AppBar from "../AppBar/AppBar";
 import OwnerContainer from "../OwnerContainer/OwnerContainer.js";
 import CompanyDescription from "../Description_Container/Description.js";
 import ProductContainer from "../Product_Container/ProductContainer.js";
@@ -12,6 +13,7 @@ class Body extends Component {
   render() {
     return (
       <React.Fragment>
+        <AppBar />
         <div style={{ marginTop: "15%" }}></div>
         <OwnerContainer />
         <br />

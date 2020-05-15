@@ -8,8 +8,10 @@ class App extends Component {
     return (
       <div>
         <Router>
-          <Container path="/" component={Container} exact />
-          <Message path="/message" component={Message} />
+          <Switch>
+            <Link path="/" component={Container} exact />
+            <Link path="/message" component={Message} exact />
+          </Switch>
         </Router>
       </div>
     );

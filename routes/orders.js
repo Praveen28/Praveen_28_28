@@ -9,7 +9,7 @@ router.post("/", (req, res) => {
     name: req.body.name,
   };
 
-  // db.insert(order);
+  db.insert(order);
   res.send("Inserted");
 });
 

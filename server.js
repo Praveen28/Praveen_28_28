@@ -26,7 +26,6 @@ app.use("/", routes);
 //     res.sendFile(path.join(__dirname, "./client/build/index.html"));
 //   });
 
-console.log(process.env)
 
 
 if (process.env.NODE_ENV === "production") {

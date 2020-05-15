@@ -1,0 +1,26 @@
+.service_title {
+  text-align: center;
+}
+
+.service_image {
+  object-fit: contain;
+  align-items: center;
+  object-position: 2rem;
+  width: 250px;
+  height: 250px;
+}
+
+.service_text {
+  text-align: justify;
+}
+
+.sample {
+  box-shadow: black;
+  height: 100%;
+  background: white;
+  width: 400px;
+  top:0;
+  left: 0;
+  position: fixed;
+}
+

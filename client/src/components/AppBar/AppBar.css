@@ -1,0 +1,56 @@
+.appbar_title {
+  flex-grow: 1;
+}
+
+.appbar {
+  flex-grow: 1;
+  background: linear-gradient(to right, #990000 57%, #ff9966 100%);
+  width: 200%;
+}
+
+.button {
+  color: azure !important;
+  padding-left: 20px;
+}
+
+.hamburger_button {
+  color: white !important;
+  transition: ease-in-out;
+}
+
+.logo {
+  border-radius: 10px;
+  height: 50px;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.navigation_links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.navigation_links_button {
+  color: whitesmoke !important;
+  font-size: 1rem !important;
+}
+
+.drawer_button {
+  height: 100%;
+  background: transparent;
+}
+
+@media (max-width: 700px) {
+  .navigation_links {
+    display: none;
+  }
+}
+
+@media (min-width: 699px) {
+  .drawer_button {
+    display: none;
+  }
+}

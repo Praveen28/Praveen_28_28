@@ -1,0 +1,30 @@
+.sidedrawer {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 60%;
+  max-width: 800px;
+  background: white;
+  position: fixed;
+  z-index: 200;
+  transition:  linear 2s;
+}
+
+
+.sidedrawer_items {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.sidedrawer_button {
+  color: black !important;
+}
+
+.sidedrawer_button:hover,
+.sidedrawer_button:active {
+  color: crimson !important;
+}

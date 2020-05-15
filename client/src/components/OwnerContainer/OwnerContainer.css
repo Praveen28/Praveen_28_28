@@ -1,0 +1,22 @@
+.avatar {
+    width: 150px;
+    text-align: center;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    border-radius: 70%;
+    margin-left: 5px;
+    align-items: center;
+  }
+  
+  .card_header {
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, #cc0000 0%, #ff33cc 100%);
+  }
+
+  .text {
+    color: black;
+    text-align: justify;
+    padding-right: 15px;
+  }

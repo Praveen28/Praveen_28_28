@@ -1,0 +1,12 @@
+.message_text {
+  text-align: center;
+}
+
+.submit_button {
+  color: white;
+  background: linear-gradient(to right, #cc0000 0%, #ff33cc 100%);
+}
+
+.submit_text {
+  color: white;
+}

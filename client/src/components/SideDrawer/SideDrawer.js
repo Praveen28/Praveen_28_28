@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "@material-ui/core";
+import { withRouter } from "react-router-dom";
 
 import "./SideDrawer.css";
 
@@ -8,13 +9,32 @@ class SideDrawer extends Component {
     return (
       <div className="sidedrawer">
         <div className="sidedrawer_items">
-          <Link className="sidedrawer_button">Products</Link>
+          <Link
+            className="sidedrawer_button"
+            onClick={() => {
+              this.props.history.push("/products");
+            }}
+          >
+            PRODUCTS
+          </Link>
           <br />
-          <Link className="sidedrawer_button">Actions</Link>
+          <Link
+            className="sidedrawer_button"
+            onClick={() => {
+              this.props.history.push("/contact");
+            }}
+          >
+            CONTACT
+          </Link>
           <br />
-          <Link className="sidedrawer_button">Contact Us</Link>
-          <br />
-          <Link className="sidedrawer_button">Emplyoees</Link>
+          <Link
+            className="sidedrawer_button"
+            onClick={() => {
+              this.props.history.push("/about");
+            }}
+          >
+            ABOUT
+          </Link>
           <br />
           <Link className="sidedrawer_button">Address</Link>
           <br />
@@ -25,4 +45,4 @@ class SideDrawer extends Component {
   }
 }
 
-export default SideDrawer;
+export default withRouter(SideDrawer);

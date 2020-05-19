@@ -14,6 +14,11 @@ class Body extends Component {
     return (
       <React.Fragment>
         <AppBar />
+        <img
+          alt="main"
+          className="main_image"
+          src="https://engineering.eckovation.com/wp-content/uploads/2018/07/electronics-1024x683.jpg"
+        />
         <div style={{ marginTop: "15%" }}></div>
         <OwnerContainer />
         <br />

@@ -1,9 +1,15 @@
 import React, { Component } from "react";
+
+import { withRouter } from "react-router-dom";
 import { Container, Typography, Grid, Paper } from "@material-ui/core";
 
 import "./ProductContainer.css";
 
 class ProductContainer extends Component {
+  handleProducts = () => {
+    this.props.history.push("/products");
+  };
+
   render() {
     return (
       <React.Fragment>
@@ -14,7 +20,11 @@ class ProductContainer extends Component {
           <br />
           <Grid container spacing={2} direction="row">
             <Grid item xs={12} md={4}>
-              <Paper elevation={10} className="paper">
+              <Paper
+                elevation={10}
+                className="paper"
+                onClick={() => this.handleProducts()}
+              >
                 <img
                   className="product_image"
                   alt="product1"
@@ -76,4 +86,4 @@ class ProductContainer extends Component {
   }
 }
 
-export default ProductContainer;
+export default withRouter(ProductContainer);

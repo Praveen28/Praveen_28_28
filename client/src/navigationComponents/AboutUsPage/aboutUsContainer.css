@@ -1,0 +1,130 @@
+.about_title {
+  text-align: center;
+  width: 100%;
+  font-size: 35px !important;
+  color: white;
+}
+.title {
+  text-align: center;
+  width: 100%;
+  font-size: 35px !important;
+  color: black;
+}
+
+.photo_icon {
+  position: relative;
+  border-radius: 50%;
+  height: 200px;
+  background-color: antiquewhite;
+  width: 200px;
+  top: calc(25% - 10%);
+  left: -70%;
+}
+
+.about_icons {
+  color: green;
+  font-size: 5rem !important;
+  margin-top: 40px;
+}
+
+.about_text {
+  margin-top: 2rem !important;
+  text-align: justify;
+}
+
+.about_paper {
+  max-height: max-content;
+  width: 100%;
+}
+
+.values_icons {
+  margin-bottom: -1.5%;
+  color: #3e9d0f;
+}
+
+.about_div {
+  margin-top: 25%;
+}
+
+.chaiman_title {
+  font-size: 2rem !important;
+  color: white;
+  text-align: center;
+}
+
+.chaiman_message {
+  font-style: italic;
+  color: white;
+  text-align: justify;
+  margin: 1rem 1rem !important;
+}
+
+.grid1 {
+  background-image: url("https://www.freepngimg.com/thumb/chess/22811-8-chess.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.grid2 {
+  background-image: url("https://cdn.clipart.email/b47b932a152d17eb0f77383ea17d6733_one-tree-hill-whittington-tump-as-ive-always-called-thi-flickr_1024-725.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 200%;
+}
+.grid3 {
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/025/566/179/large/aamira-mulla-his-office-background.jpg?1586203221");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.about_spartans {
+  background-color: darkgray;
+}
+
+.spartans_icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: black !important;
+}
+
+.spartans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .about_text {
+    text-align: justify;
+    padding: 1rem 1rem;
+  }
+  .about_icons {
+    color: green;
+    font-size: 5rem !important;
+  }
+  .about_image {
+    z-index: -1;
+    width: 100%;
+    height: 35vh;
+    position: absolute;
+  }
+  .about_div {
+    margin-top: 49%;
+  }
+}
+
+@media (max-width: 960px) {
+  .photo_icon {
+    position: relative;
+    height: 100%;
+    left: 25%;
+    background-color: black;
+    width: 50%;
+  }
+}

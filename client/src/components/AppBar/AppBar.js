@@ -1,12 +1,7 @@
 import React, { Component } from "react";
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Button,
-  ListItem,
-} from "@material-ui/core";
+import { AppBar, Toolbar, Typography, Button } from "@material-ui/core";
 import { Menu } from "@material-ui/icons";
+import { withRouter } from "react-router-dom";
 
 import "./AppBar.css";
 import SideDrawer from "../SideDrawer/SideDrawer";
@@ -30,6 +25,10 @@ class Appbar extends Component {
     });
   };
 
+  handleClick = () => {
+    this.props.history.push("/");
+  };
+
   render() {
     let sidedrawer;
     let backdrop;
@@ -41,34 +40,65 @@ class Appbar extends Component {
       <React.Fragment>
         <AppBar className="appbar" position="sticky">
           <Toolbar>
-            <img className="logo" alt="logo" src={Logo} />
-            <Typography className="appbar_title" variant="h6">
-              Antenna Design
+            <img
+              className="logo"
+              alt="logo"
+              src={Logo}
+              onClick={() => {
+                this.handleClick();
+              }}
+            />
+            <Typography
+              className="appbar_title"
+              onClick={() => {
+                this.handleClick();
+              }}
+            >
+              ANTENNA DESIGN
             </Typography>
+
+            <div className="drawer_button">
+              <Menu
+                className="hamburger_button"
+                style={{ fontSize: "2rem" }}
+                onClick={() => this.drawerOpen()}
+              />
+            </div>
+            {sidedrawer}
+            {backdrop}
+            <div className="navigation_links">
+              <Button
+                className="navigation_links_button"
+                onClick={() => {
+                  this.props.history.push("/products");
+                }}
+              >
+                PRODUCTS
+              </Button>
+              <Button
+                className="navigation_links_button"
+                onClick={() => {
+                  this.props.history.push("/contact");
+                }}
+              >
+                CONTACT
+              </Button>
+              <Button
+                className="navigation_links_button"
+                onClick={() => {
+                  this.props.history.push("/about");
+                }}
+              >
+                ABOUT
+              </Button>
+              <Button className="navigation_links_button">Address</Button>
+              <Button className="navigation_links_button">Order</Button>
+            </div>
           </Toolbar>
         </AppBar>
-        <ListItem>
-          <div className="drawer_button">
-            <Menu
-              className="hamburger_button"
-              style={{ fontSize: "2rem" }}
-              onClick={() => this.drawerOpen()}
-            />
-          </div>
-          {sidedrawer}
-          {backdrop}
-          <div className="navigation_links">
-            <Button className="navigation_links_button">Products</Button>
-            <Button className="navigation_links_button">Actions</Button>
-            <Button className="navigation_links_button">Contact Us</Button>
-            <Button className="navigation_links_button">Emplyoees</Button>
-            <Button className="navigation_links_button">Address</Button>
-            <Button className="navigation_links_button">Order</Button>
-          </div>
-        </ListItem>
       </React.Fragment>
     );
   }
 }
 
-export default Appbar;
+export default withRouter(Appbar);

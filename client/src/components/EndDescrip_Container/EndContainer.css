@@ -1,23 +1,31 @@
-.card {
-  background-color: gray !important;
+.end_color {
+  background-color: gray   !important;
 }
 
-.icons {
-  display: inline-block;
+.end_items {
+  display: flex;
+  justify-content: center;
+}
+
+.company_detail {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
 }
 
 .social_logo {
+  margin-left: 1rem;
+  margin-right: 1rem;
   width: 2rem;
   height: 2rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
 }
 
-.end_text {
-  color: white;
-}
-
-.end_logo {
-  width: auto;
-  height: 2rem;
-  padding-top: 1rem;
+@media (max-width: 800px) {
+  .company_detail {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    text-align: center;
+  }
 }

@@ -1,16 +1,13 @@
 .appbar_title {
-  flex-grow: 1;
+  flex-flow: 1;
+  width: 100%;
+  cursor: pointer;
 }
 
 .appbar {
   flex-grow: 1;
+  width: 100%;
   background: linear-gradient(to right, #990000 57%, #ff9966 100%);
-  width: 200%;
-}
-
-.button {
-  color: azure !important;
-  padding-left: 20px;
 }
 
 .hamburger_button {
@@ -23,14 +20,8 @@
   height: 50px;
 }
 
-.spacer {
-  flex-grow: 1;
-}
-
 .navigation_links {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
+ display: flex;
 }
 
 .navigation_links_button {
@@ -43,13 +34,13 @@
   background: transparent;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .navigation_links {
     display: none;
   }
 }
 
-@media (min-width: 699px) {
+@media (min-width: 801px) {
   .drawer_button {
     display: none;
   }

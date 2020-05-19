@@ -1,0 +1,16 @@
+.map {
+  width: 100%;
+  height: 60vh;
+}
+
+.grid_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.logos {
+    font-size: 3rem !important;
+    color: #FF0266;
+}

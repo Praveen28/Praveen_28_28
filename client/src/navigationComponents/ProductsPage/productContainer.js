@@ -16,17 +16,18 @@ class Product extends Component {
     return (
       <React.Fragment>
         <AppBar />
-        <img
-          alt="product_images"
-          className="product_images"
-          src="https://www2.l3t.com/csw/assets/products/images/products-header.jpg"
-        />
-        <div style={{ marginTop: "10%" }} />
-        <Container>
-          <Typography component="div" className="intro_product" variant="h4">
+        <div className="product_div">
+          <img
+            alt="product_images"
+            className="product_images"
+            src="https://image.freepik.com/free-photo/black-creative-background_99433-733.jpg"
+          />
+          <Typography className="intro_product">
             PRODUCTS <br /> We offer the best design and products...
           </Typography>
-          <div style={{ marginTop: "15%" }}></div>
+        </div>
+        <br />
+        <Container>
           <Paper elevation={10} className="paper_product">
             <Grid container spacing={2} direction="row">
               <Grid item xs={12} md={6}>
@@ -37,7 +38,10 @@ class Product extends Component {
                 />
               </Grid>
               <Grid item xs={12} md={6}>
-                <Typography component="div">
+                <Typography
+                  component="div"
+                  style={{ textAlign: "center", letterSpacing: "0.2em" }}
+                >
                   MICROSTRIP PATCH ANTENNA
                 </Typography>
                 <Typography component="div" className="product_details">
@@ -117,7 +121,12 @@ class Product extends Component {
           <Paper elevation={10} className="paper_product">
             <Grid container spacing={2} direction="row">
               <Grid item xs={12} md={6}>
-                <Typography component="div">LENS ANTENNAS DESIGN</Typography>
+                <Typography
+                  component="div"
+                  style={{ textAlign: "center", letterSpacing: "0.2em" }}
+                >
+                  LENS ANTENNAS DESIGN
+                </Typography>
                 <Typography component="div" className="product_details">
                   The Fresnel lens reduces the amount of material required
                   compared to a conventional lens by dividing the lens into a
@@ -222,7 +231,12 @@ class Product extends Component {
                 />
               </Grid>
               <Grid item xs={12} md={6}>
-                <Typography component="div">WIRE ANTENNAS DESIGN</Typography>
+                <Typography
+                  component="div"
+                  style={{ textAlign: "center", letterSpacing: "0.2em" }}
+                >
+                  WIRE ANTENNAS DESIGN
+                </Typography>
                 <Typography component="div" className="product_details">
                   A random wire antenna is a radio antenna consisting of a long
                   wire suspended above the ground, whose length does not bear a
@@ -311,7 +325,7 @@ class Product extends Component {
         </Container>
 
         <Typography component="div" className="solution_title">
-          Solution Process
+          SOLUTION PROCESS
         </Typography>
         <Container>
           <img alt="solution" className="solution_image" src={Solution_Image} />

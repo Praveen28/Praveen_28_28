@@ -1,0 +1,21 @@
+
+
+.apply_image {
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+}
+
+
+
+
+.apply_button {
+  background-color: #77071c !important;
+  color: white !important;
+  letter-spacing: 0.3em !important;
+}
+
+.apply_button:hover {
+  background-color: #2fb345 !important;
+  transition: 1s ease-in-out;
+}

@@ -1,0 +1,48 @@
+.career_div {
+  width: 100%;
+  height: 70vh;
+  z-index: -1;
+}
+
+.career_image {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.career_title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.6rem !important;
+  color: white;
+  letter-spacing: 0.2em !important;
+}
+
+.career_subtitle {
+  text-align: center !important;
+  font-size: 2.5rem !important;
+}
+
+.career_subtitle_1 {
+  text-align: center !important;
+  letter-spacing: 0.2em !important;
+}
+
+.career_subtitle_2 {
+  text-align: center !important;
+  margin: 0 20% !important;
+}
+
+.career_button {
+  font-size: 0.9rem !important;
+  background-color: #b03a2e !important;
+  letter-spacing: 0.1em !important;
+  color: white !important;
+}
+
+.career_button:hover {
+  background-color: #40b02e !important;
+  transition: .5s ease-in-out;
+}

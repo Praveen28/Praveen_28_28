@@ -43,7 +43,11 @@ class ProductContainer extends Component {
               </Paper>
             </Grid>
             <Grid item xs={12} md={4}>
-              <Paper elevation={10} className="paper">
+              <Paper
+                elevation={10}
+                className="paper"
+                onClick={() => this.handleProducts()}
+              >
                 <img
                   className="product_image"
                   alt="product1"
@@ -62,7 +66,11 @@ class ProductContainer extends Component {
             </Grid>
 
             <Grid item xs={12} md={4}>
-              <Paper className="paper" elevation={10}>
+              <Paper
+                className="paper"
+                elevation={10}
+                onClick={() => this.handleProducts()}
+              >
                 <img
                   className="product_image"
                   alt="product1"

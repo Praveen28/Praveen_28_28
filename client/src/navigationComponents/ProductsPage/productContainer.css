@@ -1,22 +1,31 @@
-.product_images {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50vh;
+.product_div {
+  position: relative;
 }
+
+.product_images {
+  width: 100%;
+  height: 60vh;
+}
+
 .paper_product {
   padding: 1rem;
 }
 
 .intro_product {
+  position: absolute;
+  letter-spacing: 0.2em !important;
+  color: white;
   text-align: center;
-  justify-content: center;
+  font-size: 2rem !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .full_product_image {
   top: 0;
   left: 0;
-  display: block;
+  display: absolute;
   width: 100%;
   height: 50vh;
   margin-left: auto;
@@ -29,6 +38,7 @@
 
 .check_icon {
   margin-bottom: -2%;
+  color: green;
 }
 
 .solution {
@@ -38,6 +48,7 @@
 .solution_title {
   text-align: center;
   justify-content: center;
+  letter-spacing: 0.2em !important;
   font-size: 2rem !important;
 }
 

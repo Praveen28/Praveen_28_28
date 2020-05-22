@@ -91,7 +91,14 @@ class Appbar extends Component {
               >
                 ABOUT
               </Button>
-              <Button className="navigation_links_button">Address</Button>
+              <Button
+                className="navigation_links_button"
+                onClick={() => {
+                  this.props.history.push("/career");
+                }}
+              >
+                Career
+              </Button>
               <Button className="navigation_links_button">Order</Button>
             </div>
           </Toolbar>

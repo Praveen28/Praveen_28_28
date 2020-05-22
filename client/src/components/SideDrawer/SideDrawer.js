@@ -21,7 +21,7 @@ class SideDrawer extends Component {
           <Link
             className="sidedrawer_button"
             onClick={() => {
-              this.props.history.push("/contact");
+              this.props.history.push("/products");
             }}
           >
             CONTACT
@@ -30,13 +30,20 @@ class SideDrawer extends Component {
           <Link
             className="sidedrawer_button"
             onClick={() => {
-              this.props.history.push("/about");
+              this.props.history.push("/contact");
             }}
           >
             ABOUT
           </Link>
           <br />
-          <Link className="sidedrawer_button">Address</Link>
+          <Link
+            className="sidedrawer_button"
+            onClick={() => {
+              this.props.history.push("/career");
+            }}
+          >
+            CAREER
+          </Link>
           <br />
           <Link className="sidedrawer_button">Order</Link>
         </div>

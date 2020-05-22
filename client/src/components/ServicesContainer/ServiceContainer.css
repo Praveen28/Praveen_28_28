@@ -1,26 +1,38 @@
 .service_title {
+  font-size: 2rem !important;
+  letter-spacing: 0.2em !important;
   text-align: center;
 }
 
 .service_image {
-  object-fit: contain;
-  align-items: center;
-  object-position: 2rem;
-  width: 250px;
-  height: 250px;
+  width: 80%;
+  height: 25vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.service_text {
+.service_divider {
+  width: 0px;
+  height: 100%;
+}
+
+.service_text_1 {
+  font-size: 1.2rem !important;
+  letter-spacing: 0.1em !important;
+}
+
+.service_text_2{
   text-align: justify;
 }
 
-.sample {
-  box-shadow: black;
-  height: 100%;
-  background: white;
-  width: 400px;
-  top:0;
-  left: 0;
-  position: fixed;
+@media (max-width: 959px) {
+  .service_divider {
+    display: none;
+  }
+  .service_text_1 {
+    font-size: 1.2rem !important;
+  letter-spacing: 0.1em !important;
+  text-align: center;
+  }
 }
-

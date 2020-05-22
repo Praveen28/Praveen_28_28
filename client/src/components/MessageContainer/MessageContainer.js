@@ -114,7 +114,7 @@ class MessageContainer extends Component {
                     variant="outlined"
                     label="Message"
                     multiline
-                    rows="4"
+                    rows="6"
                   />
                 </Grid>
                 <Grid item md={8} xs={8}></Grid>

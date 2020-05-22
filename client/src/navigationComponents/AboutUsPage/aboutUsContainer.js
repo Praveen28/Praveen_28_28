@@ -11,7 +11,7 @@ class AboutUs extends Component {
     return (
       <React.Fragment>
         <AppBar />
-        <Grid container className="grid3">
+        <Grid container className="about_image1">
           <Grid item xs={12}>
             <br />
             <br />
@@ -37,11 +37,15 @@ class AboutUs extends Component {
             <br />
             <br />
             <br />
-
           </Grid>
         </Grid>
 
-        <Grid container spacing={2} style={{ left: "5%" }} className="grid1">
+        <Grid
+          container
+          spacing={2}
+          style={{ left: "5%" }}
+          className="about_image2"
+        >
           <Grid item md={1}></Grid>
           <Grid item md={6}>
             <Grid container direction="row">
@@ -104,7 +108,7 @@ class AboutUs extends Component {
 
         <br />
         <br />
-        <Grid container className="grid2">
+        <Grid container className="about_image3">
           <Grid item md={6} xs={12}></Grid>
           <Grid item md={6} xs={12}>
             <br />
@@ -263,7 +267,7 @@ class AboutUs extends Component {
               <Grid item md={2} xs={6}>
                 <img
                   alt="spartan1"
-                  src="http://clipart-library.com/image_gallery2/Man-PNG-File.png"
+                  src="https://ya-webdesign.com/transparent250_/george-washington-clipart-11.png"
                   className="spartans_icon"
                 />
               </Grid>

@@ -38,10 +38,7 @@ class Product extends Component {
                 />
               </Grid>
               <Grid item xs={12} md={6}>
-                <Typography
-                  component="div"
-                  style={{ textAlign: "center", letterSpacing: "0.2em" }}
-                >
+                <Typography component="div" className="product_title">
                   MICROSTRIP PATCH ANTENNA
                 </Typography>
                 <Typography component="div" className="product_details">
@@ -57,59 +54,55 @@ class Product extends Component {
                   continuous shape is possible.
                 </Typography>
                 <br />
-                <Typography component="div">Core Modules</Typography>
+                <Typography component="div">ADVANTAGES</Typography>
                 <br />
                 <Typography component="div">
                   <Grid container>
-                    <Grid item xs={6} md={6}>
-                      <Check className="check_icon" /> Hi
-                      <Typography component="div"></Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Check className="check_icon" /> Hi
-                      <Typography component="div"></Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Check className="check_icon" /> Hi
-                      <Typography component="div"></Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Check className="check_icon" /> Hi
-                      <Typography component="div"></Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Check className="check_icon" /> Hi
-                      <Typography component="div"></Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Check className="check_icon" /> Hi
-                      <Typography component="div"></Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Check className="check_icon" /> Hi
-                      <Typography component="div"></Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
+                    <Grid item xs={12}>
                       <Typography component="div">
-                        <Check className="check_icon" /> Hi
+                        <Check className="check_icon" /> Light weight and low
+                        volume
                       </Typography>
                     </Grid>
-                    <Grid item xs={6} md={6}>
+                    <Grid item xs={12}>
                       <Typography component="div">
-                        <Check className="check_icon" /> Hi
+                        <Check className="check_icon" /> Planar configuration
                       </Typography>
                     </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Check className="check_icon" /> Hi
-                      <Typography component="div"></Typography>
+                    <Grid item xs={12}>
+                      <Typography component="div">
+                        <Check className="check_icon" /> Low manufacturing cost
+                      </Typography>
                     </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Check className="check_icon" /> Hi
-                      <Typography component="div"></Typography>
+                    <Grid item xs={12}>
+                      <Typography component="div">
+                        <Check className="check_icon" /> Support both linear as
+                        well as circular polarization
+                      </Typography>
                     </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Check className="check_icon" /> Hi
-                      <Typography component="div"></Typography>
+                    <Grid item xs={12}>
+                      <Typography component="div">
+                        <Check className="check_icon" /> Easily integrated with
+                        microwave integrated circuit
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12}>
+                      <Typography component="div">
+                        <Check className="check_icon" /> Capable of multiband
+                        operation
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12}>
+                      <Typography component="div">
+                        <Check className="check_icon" /> Capable of multiband
+                        operation
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={12}>
+                      <Typography component="div">
+                        <Check className="check_icon" /> Mechanically robust
+                        when mounted on rigid surface.
+                      </Typography>
                     </Grid>
                   </Grid>
                 </Typography>
@@ -121,10 +114,7 @@ class Product extends Component {
           <Paper elevation={10} className="paper_product">
             <Grid container spacing={2} direction="row">
               <Grid item xs={12} md={6}>
-                <Typography
-                  component="div"
-                  style={{ textAlign: "center", letterSpacing: "0.2em" }}
-                >
+                <Typography component="div" className="product_title">
                   LENS ANTENNAS DESIGN
                 </Typography>
                 <Typography component="div" className="product_details">
@@ -143,68 +133,32 @@ class Product extends Component {
                   convex center.
                 </Typography>
                 <br />
-                <Typography component="div">Core Modules</Typography>
+                <Typography component="div">ADVANTAGES</Typography>
                 <br />
                 <Typography component="div">
                   <Grid container>
-                    <Grid item xs={6} md={6}>
+                    <Grid item xs={12}>
                       <Typography component="div">
-                        <Check className="check_icon" /> Hi
+                        <Check className="check_icon" /> In lens antennas, feed
+                        and feed support, do not obstruct the aperture.
                       </Typography>
                     </Grid>
-                    <Grid item xs={6} md={6}>
+                    <Grid item xs={12}>
                       <Typography component="div">
-                        <Check className="check_icon" /> Hi
+                        <Check className="check_icon" /> It has greater design
+                        tolerance.
                       </Typography>
                     </Grid>
-                    <Grid item xs={6} md={6}>
+                    <Grid item xs={12}>
                       <Typography component="div">
-                        <Check className="check_icon" /> Hi
+                        <Check className="check_icon" /> Larger amount of wave,
+                        than a parabolic reflector, can be handled.
                       </Typography>
                     </Grid>
-                    <Grid item xs={6} md={6}>
+                    <Grid item xs={12}>
                       <Typography component="div">
-                        <Check className="check_icon" /> Hi
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Typography component="div">
-                        <Check className="check_icon" /> Hi
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Typography component="div">
-                        <Check className="check_icon" /> Hi
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Typography component="div">
-                        <Check className="check_icon" /> Hi
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Typography component="div">
-                        <Check className="check_icon" /> Hi
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Typography component="div">
-                        <Check className="check_icon" /> Hi
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Typography component="div">
-                        <Check className="check_icon" /> Hi
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Typography component="div">
-                        <Check className="check_icon" /> Hi
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Typography component="div">
-                        <Check className="check_icon" /> Hi
+                        <Check className="check_icon" /> Beam can be moved
+                        angularly with espect to the axis.
                       </Typography>
                     </Grid>
                   </Grid>
@@ -214,7 +168,7 @@ class Product extends Component {
                 <img
                   alt="lens antenna"
                   className="full_product_image"
-                  src="https://www.researchgate.net/profile/HR_Hassani/publication/255570558/figure/fig1/AS:297915227623424@1448039933298/Configuration-of-the-proposed-horn-antenna.png"
+                  src="https://www.pasternack.com/images/Product/medium/PEWAN1078.jpg"
                 />
               </Grid>
             </Grid>
@@ -227,14 +181,11 @@ class Product extends Component {
                 <img
                   alt="microstrip antenna"
                   className="full_product_image"
-                  src="https://www.lectrosonics.com/media/com_hikashop/upload/thumbnails/500x570f/arg2.jpg"
+                  src="https://images-eu.ssl-images-amazon.com/images/I/41eNFVzsT3L._SL500_AC_SS350_.jpg"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
-                <Typography
-                  component="div"
-                  style={{ textAlign: "center", letterSpacing: "0.2em" }}
-                >
+                <Typography component="div" className="product_title">
                   WIRE ANTENNAS DESIGN
                 </Typography>
                 <Typography component="div" className="product_details">
@@ -251,68 +202,44 @@ class Product extends Component {
                   an earth ground.
                 </Typography>
                 <br />
-                <Typography component="div">Core Modules</Typography>
+                <Typography component="div">ADVANTAGES</Typography>
                 <br />
                 <Typography component="div">
                   <Grid container>
-                    <Grid item xs={6} md={6}>
+                    <Grid item xs={12}>
                       <Typography component="div">
-                        <Check className="check_icon" /> Hi
+                        <Check className="check_icon" /> It is simple in
+                        construction
                       </Typography>
                     </Grid>
-                    <Grid item xs={6} md={6}>
+                    <Grid item xs={12}>
                       <Typography component="div">
-                        <Check className="check_icon" /> Hi
+                        <Check className="check_icon" /> It offers satisfactory
+                        gain and directivity.
                       </Typography>
                     </Grid>
-                    <Grid item xs={6} md={6}>
+                    <Grid item xs={12}>
                       <Typography component="div">
-                        <Check className="check_icon" /> Hi
+                        <Check className="check_icon" /> It radiates on any
+                        frequency for which its overall length is not less than
+                        λ/2.
                       </Typography>
                     </Grid>
-                    <Grid item xs={6} md={6}>
+                    <Grid item xs={12}>
                       <Typography component="div">
-                        <Check className="check_icon" /> Hi
+                        <Check className="check_icon" /> It has sharp
+                        directional pattern.
                       </Typography>
                     </Grid>
-                    <Grid item xs={6} md={6}>
+                    <Grid item xs={12}>
                       <Typography component="div">
-                        <Check className="check_icon" /> Hi
+                        <Check className="check_icon" /> It concentrates
+                        radiation at low vertical angles.
                       </Typography>
                     </Grid>
-                    <Grid item xs={6} md={6}>
+                    <Grid item xs={12}>
                       <Typography component="div">
-                        <Check className="check_icon" /> Hi
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Typography component="div">
-                        <Check className="check_icon" /> Hi
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Typography component="div">
-                        <Check className="check_icon" /> Hi
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Typography component="div">
-                        <Check className="check_icon" /> Hi
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Typography component="div">
-                        <Check className="check_icon" /> Hi
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Typography component="div">
-                        <Check className="check_icon" /> Hi
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Typography component="div">
-                        <Check className="check_icon" /> Hi
+                        <Check className="check_icon" /> It is inexpensive.
                       </Typography>
                     </Grid>
                   </Grid>
@@ -320,17 +247,52 @@ class Product extends Component {
               </Grid>
             </Grid>
           </Paper>
-          <br />
-          <br />
         </Container>
-
+        <br />
+        <br />
+        <Typography className="solution_title">TECHNOLOGIES</Typography>
+        <br />
+        <br />
+        <Container>
+          <Grid container spacing={3}>
+            <Grid item md={3} xs={6}>
+              <img
+                alt="technology"
+                src="https://downloadraw.net/wp-content/uploads/2016/04/www.downloadRAW.com1_-1-250x165.png"
+                className="technology_image"
+              />
+            </Grid>
+            <Grid item md={3} xs={6}>
+              <img
+                alt="technology"
+                src="https://logodix.com/logo/1965692.png"
+                className="technology_image"
+              />
+            </Grid>
+            <Grid item md={3} xs={6}>
+              <img
+                alt="technology"
+                src="https://www.goengineer.com/wp-content/uploads/EMWorks.png"
+                className="technology_image"
+              />
+            </Grid>
+            <Grid item md={3} xs={6}>
+              <img
+                alt="technology"
+                src="https://logos-download.com/wp-content/uploads/2019/01/ANSYS_Logo.png"
+                className="technology_image"
+              />
+            </Grid>
+          </Grid>
+        </Container>
+        <br />
+        <br />
         <Typography component="div" className="solution_title">
           SOLUTION PROCESS
         </Typography>
         <Container>
           <img alt="solution" className="solution_image" src={Solution_Image} />
         </Container>
-
         <EndDescription />
       </React.Fragment>
     );

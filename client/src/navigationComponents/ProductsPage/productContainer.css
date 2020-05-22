@@ -9,6 +9,7 @@
 
 .paper_product {
   padding: 1rem;
+  max-height: max-content;
 }
 
 .intro_product {
@@ -22,12 +23,17 @@
   transform: translate(-50%, -50%);
 }
 
+.product_title {
+  text-align: center;
+  letter-spacing: 0.2em !important;
+  font-size: 1.2rem !important;
+}
 .full_product_image {
   top: 0;
   left: 0;
   display: absolute;
   width: 100%;
-  height: 50vh;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -37,7 +43,8 @@
 }
 
 .check_icon {
-  margin-bottom: -2%;
+  margin-bottom: -1%;
+  margin-right: 3px;
   color: green;
 }
 
@@ -61,6 +68,13 @@
   margin-right: auto;
 }
 
+.technology_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 70%;
+}
 @media (max-width: 800px) {
   .full_product_image {
     display: block;

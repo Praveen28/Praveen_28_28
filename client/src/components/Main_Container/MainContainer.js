@@ -4,8 +4,8 @@ import "./MainContainer.css";
 import { Typography } from "@material-ui/core";
 
 import AppBar from "../AppBar/AppBar";
-import OwnerContainer from "../OwnerContainer/OwnerContainer.js";
-import CompanyDescription from "../Description_Container/Description.js";
+// import OwnerContainer from "../OwnerContainer/OwnerContainer.js";
+// import CompanyDescription from "../Description_Container/Description.js";
 import ServiceContainer from "../ServicesContainer/ServiceContainer.js";
 import ProductContainer from "../Product_Container/ProductContainer.js";
 import UniquenessContainer from "../UniquenessContainer/UniqueContainer";

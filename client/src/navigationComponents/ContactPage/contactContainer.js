@@ -9,7 +9,6 @@ import "./contactContainer.css";
 
 import Map from "../../images/Map.png";
 class Contact extends Component {
-  
   componentDidMount() {
     window.scrollTo(0, 0);
   }
@@ -24,14 +23,18 @@ class Contact extends Component {
         <MessagePage />
         <br />
         <br />
+        <br />
+        <br />
         <Container maxWidth="md">
           <Grid container spacing={2}>
             <Grid item xs={12} md={4} className="grid_items">
               <Email className="logos" />
+              <br />
               <Typography>antenna@gmail.com</Typography>
             </Grid>
             <Grid item xs={12} md={4} className="grid_items">
               <LocationOn className="logos" />
+              <br />
               <Typography style={{ textAlign: "center" }}>
                 Antenna Design Office <br /> No:1 Tolgate ,2nd cross, <br />
                 Maruthi Nagar <br />
@@ -40,6 +43,7 @@ class Contact extends Component {
             </Grid>
             <Grid item xs={12} md={4} className="grid_items">
               <PhoneIphone className="logos" />
+              <br />
               <Typography>+91 1234567890</Typography>
             </Grid>
           </Grid>

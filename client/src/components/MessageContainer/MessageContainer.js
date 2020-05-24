@@ -41,37 +41,39 @@ class MessageContainer extends Component {
   };
 
   handleSubmit = () => {
-    alert(
-      "Full Name " +
-        this.state.fullname +
-        "\nEmail Id " +
-        this.state.emailid +
-        "\nMobile Number " +
-        this.state.mobilenumber +
-        "\nMessage " +
-        this.state.message
-    );
-
-    const submit = {
-      name: this.state.fullname,
-    };
-
-    axios
-      .post("/message", submit)
-      .then((res) => {
-        alert("Successfully compiled");
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+    if (
+      !this.state.fullname ||
+      !this.state.emailid ||
+      !this.state.mobilenumber ||
+      !this.state.message
+    ) {
+      alert("Fill in all the details");
+      window.location.reload(false);
+    } else {
+      const submit = {
+        name: this.state.fullname,
+        emailid: this.state.emailid,
+        mobilenumber: this.state.mobilenumber,
+        message: this.state.message,
+      };
+      axios
+        .post("/message", submit)
+        .then((res) => {
+          alert(
+            "Your response has been received by our team. We will contact you soon.."
+          );
+          window.location.reload(false);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    }
   };
 
   render() {
     return (
       <React.Fragment>
-        <Typography style={{ fontSize: "2rem" }} className="message_text">
-          GET IN TOUCH
-        </Typography>
+        <Typography className="message_text">GET IN TOUCH</Typography>
         <br />
         <br />
         <Container maxWidth="md">

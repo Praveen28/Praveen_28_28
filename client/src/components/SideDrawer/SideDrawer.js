@@ -45,7 +45,14 @@ class SideDrawer extends Component {
             CAREER
           </Link>
           <br />
-          <Link className="sidedrawer_button">Order</Link>
+          <Link
+            className="sidedrawer_button"
+            onClick={() => {
+              this.props.history.push("/order");
+            }}
+          >
+            ORDER
+          </Link>
         </div>
       </div>
     );

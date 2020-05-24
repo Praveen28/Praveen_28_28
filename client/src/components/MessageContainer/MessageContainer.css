@@ -1,5 +1,6 @@
 .message_text {
   text-align: center;
+  font-size: 2rem !important;
 }
 
 .submit_button {

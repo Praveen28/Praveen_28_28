@@ -91,7 +91,7 @@ class Order extends Component {
       alert("Enter all the values..");
     } else {
       axios
-        .post("http://localhost:8000/order", data)
+        .post("/order", data)
         .then((res) => alert("Entered"))
         .catch((err) => console.log(err));
     }

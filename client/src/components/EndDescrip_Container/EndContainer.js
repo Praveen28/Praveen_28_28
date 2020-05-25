@@ -10,7 +10,7 @@ class EndContainer extends Component {
         <div className="end_color">
           <br />
           <Typography className="company_detail">
-            COPYRIGHT © 2020. ANTENNA DESIGN SERVICE PVT LTD.
+            COPYRIGHT © 2020. µ-MAKER SERVICE PVT LTD.
           </Typography>
           <br />
           <div className="end_items">

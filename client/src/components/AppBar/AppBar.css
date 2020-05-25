@@ -2,7 +2,8 @@
   flex-flow: 1;
   width: 100%;
   cursor: pointer;
-  font-family: 'Times New Roman', Times, serif !important;
+  font-size: 1.5rem !important;
+  font-family: "Times New Roman", Times, serif !important;
   letter-spacing: 0.2em !important;
 }
 
@@ -24,7 +25,7 @@
 }
 
 .navigation_links {
- display: flex;
+  display: flex;
 }
 
 .navigation_links_button {

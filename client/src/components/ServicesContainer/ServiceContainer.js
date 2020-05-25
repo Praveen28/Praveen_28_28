@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Typography, Grid, Container } from "@material-ui/core";
-
+import { Typography, Grid, Container, Button } from "@material-ui/core";
+import {withRouter} from "react-router-dom";
 import "./ServiceContainer.css";
 
 class ServiceContainer extends Component {
@@ -20,13 +20,22 @@ class ServiceContainer extends Component {
               />
               <br />
               <Typography className="service_text_1">
-                ANTENNA SERVICES
+                PUBLICATION OF JOURNAL
               </Typography>
               <Typography className="service_text_2">
                 Our antenna service development team takes maximum advantage to
                 repair the old antenna and make it work with better power in the
                 future.
               </Typography>
+              <br />
+              <Button
+                className="service_button"
+                onClick={() => {
+                  this.props.history.push("/services");
+                }}
+              >
+                Know more
+              </Button>
             </Grid>
             <Grid item md={1}>
               <hr className="service_divider" />
@@ -39,13 +48,22 @@ class ServiceContainer extends Component {
               />
               <br />
               <Typography className="service_text_1">
-                ANTENNA TESTING
+                FABRICATION & TESTING
               </Typography>
               <Typography className="service_text_2">
                 The testing team ensures that the antenna meets the
                 specification or simply to characterise it and anlyse the
                 results.
               </Typography>
+              <br />
+              <Button
+                className="service_button"
+                onClick={() => {
+                  this.props.history.push("/services");
+                }}
+              >
+                Know more
+              </Button>
             </Grid>
             <Grid item md={1}>
               <hr className="service_divider" />
@@ -58,12 +76,23 @@ class ServiceContainer extends Component {
                 className="service_image"
               />
               <br />
-              <Typography className="service_text_1">ANTENNA DESIGN</Typography>
+              <Typography className="service_text_1">
+                ACADEMIC SUPPORT
+              </Typography>
               <Typography className="service_text_2">
                 The design team helps our clients to design the antenna
                 according to their requirments and allowing the developers to
                 produce high quality.
               </Typography>
+              <br />
+              <Button
+                className="service_button"
+                onClick={() => {
+                  this.props.history.push("/services");
+                }}
+              >
+                Know more
+              </Button>
             </Grid>
           </Grid>
         </Container>
@@ -73,4 +102,4 @@ class ServiceContainer extends Component {
   }
 }
 
-export default ServiceContainer;
+export default withRouter(ServiceContainer);

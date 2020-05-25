@@ -22,8 +22,18 @@
   letter-spacing: 0.1em !important;
 }
 
-.service_text_2{
+.service_text_2 {
   text-align: justify;
+}
+
+.service_button {
+  background-color: #59a659 !important;
+  color: white !important;
+}
+
+.service_button:hover {
+  background-color: #ff0000 !important;
+  transition: 1s ease-in-out;
 }
 
 @media (max-width: 959px) {
@@ -32,7 +42,7 @@
   }
   .service_text_1 {
     font-size: 1.2rem !important;
-  letter-spacing: 0.1em !important;
-  text-align: center;
+    letter-spacing: 0.1em !important;
+    text-align: center;
   }
 }

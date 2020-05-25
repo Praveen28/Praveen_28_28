@@ -67,10 +67,8 @@ class AboutUs extends Component {
               <Grid item xs={12} md={6}>
                 <Typography component="div" className="about_text">
                   MISION <br />
-                  To provide a complete solution that enables businesses to
-                  become virtual enterprises through pristine service and
-                  self-contained software delivered by a motivated workforce
-                  driven by passion.
+                  To Promote wire free world with innovative antenna designs and
+                  develop the motherland for the welfare of the nation.
                 </Typography>
               </Grid>
               <Grid item md={4}></Grid>

@@ -54,7 +54,7 @@ class Appbar extends Component {
                 this.handleClick();
               }}
             >
-              ANTENNA DESIGN
+              µ-MAKER 
             </Typography>
 
             <div className="drawer_button">
@@ -67,6 +67,14 @@ class Appbar extends Component {
             {sidedrawer}
             {backdrop}
             <div className="navigation_links">
+              <Button
+                className="navigation_links_button"
+                onClick={() => {
+                  this.props.history.push("/services");
+                }}
+              >
+                SERVICES
+              </Button>
               <Button
                 className="navigation_links_button"
                 onClick={() => {

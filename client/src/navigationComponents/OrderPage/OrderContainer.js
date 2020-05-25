@@ -72,7 +72,7 @@ class Order extends Component {
   handleOrder = () => {
     const data = {
       name: this.state.name,
-      emaildid: this.state.emailid,
+      emailid: this.state.emailid,
       mobilenumber: this.state.mobilenumber,
       type: this.state.type,
       application: this.state.application,

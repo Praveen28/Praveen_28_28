@@ -13,7 +13,7 @@ router.post("/", (req, res) => {
     shape: req.body.shape,
     description: req.body.description,
   };
-
+  console.log(order.emailid)
   db.insert(order, (err, succ) => {
     if (err) throw err;
     else res.send("Successfully inserted");

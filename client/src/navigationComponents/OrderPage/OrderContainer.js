@@ -92,7 +92,10 @@ class Order extends Component {
     } else {
       axios
         .post("/order", data)
-        .then((res) => alert("Entered"))
+        .then((res) => {
+          alert("Entered");
+          window.location.reload(false);
+        })
         .catch((err) => console.log(err));
     }
   };

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Typography, Grid, Container, Button } from "@material-ui/core";
-import {withRouter} from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import "./ServiceContainer.css";
 
 class ServiceContainer extends Component {
@@ -23,9 +23,9 @@ class ServiceContainer extends Component {
                 PUBLICATION OF JOURNAL
               </Typography>
               <Typography className="service_text_2">
-                Our antenna service development team takes maximum advantage to
-                repair the old antenna and make it work with better power in the
-                future.
+                Your research paper will be made to publish from the top journal
+                websites and before your paper will be made to undergo
+                verification process.
               </Typography>
               <br />
               <Button
@@ -51,8 +51,8 @@ class ServiceContainer extends Component {
                 FABRICATION & TESTING
               </Typography>
               <Typography className="service_text_2">
-                The testing team ensures that the antenna meets the
-                specification or simply to characterise it and anlyse the
+                The fabrication & testing team ensures that the antenna meets
+                the specification or simply to characterise it and anlyse the
                 results.
               </Typography>
               <br />
@@ -80,9 +80,8 @@ class ServiceContainer extends Component {
                 ACADEMIC SUPPORT
               </Typography>
               <Typography className="service_text_2">
-                The design team helps our clients to design the antenna
-                according to their requirments and allowing the developers to
-                produce high quality.
+                Knowledege is more power. So we offer video lectures and implant
+                training about the recent trends in the development of antenna.
               </Typography>
               <br />
               <Button

@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import { Grid, Typography, Container } from "@material-ui/core";
 
-import {} from "@material-ui/icons";
-
+import Globe_Image from "../../images/components/UniquenessConatiner/globe.png";
+import Client_Image from "../../images/components/UniquenessConatiner/client.png";
+import Lens_Image from "../../images/components/UniquenessConatiner/lens.png";
+import Like_Image from "../../images/components/UniquenessConatiner/like.png";
 import "./UniqueContainer.css";
 
 class UniqueContainer extends Component {
@@ -24,7 +26,7 @@ class UniqueContainer extends Component {
                 <Grid item md={3} xs={3}>
                   <img
                     alt="image1"
-                    src="http://pngimg.com/uploads/globe/globe_PNG63.png"
+                    src={Globe_Image}
                     className="unique_icons"
                   />
                 </Grid>
@@ -45,7 +47,7 @@ class UniqueContainer extends Component {
                 <Grid item md={3} xs={3}>
                   <img
                     alt="image2"
-                    src="https://cdn.pixabay.com/photo/2013/03/29/13/40/magnifying-glass-97635_1280.png"
+                    src={Lens_Image}
                     className="unique_icons"
                   />
                 </Grid>
@@ -79,7 +81,7 @@ class UniqueContainer extends Component {
                 <Grid item md={3} xs={3}>
                   <img
                     alt="image3"
-                    src="https://pngimg.com/uploads/like/like_PNG81.png"
+                    src={Like_Image}
                     className="unique_icons"
                   />
                 </Grid>
@@ -100,7 +102,7 @@ class UniqueContainer extends Component {
                 <Grid item md={3} xs={3}>
                   <img
                     alt="image4"
-                    src="https://pngimage.net/wp-content/uploads/2018/05/clients-png.png"
+                    src={Client_Image}
                     className="unique_icons"
                   />
                 </Grid>

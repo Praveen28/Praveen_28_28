@@ -4,12 +4,6 @@
   font-size: 35px !important;
   color: white;
 }
-.title {
-  text-align: center;
-  width: 100%;
-  font-size: 35px !important;
-  color: black;
-}
 
 .photo_icon {
   position: relative;
@@ -59,20 +53,20 @@
   margin: 1rem 1rem !important;
 }
 .about_image1 {
-  background-image: url("https://cdnb.artstation.com/p/assets/images/images/025/566/179/large/aamira-mulla-his-office-background.jpg?1586203221");
+  background-image: url("../../images/navigationComponents/AboutUsPage/abouttitle.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
 
 .about_image2 {
-  background-image: url("https://www.freepngimg.com/thumb/chess/22811-8-chess.png");
+  background-image: url("../../images/navigationComponents/AboutUsPage/chess.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
 .about_image3 {
-  background-image: url("https://cdn.clipart.email/b47b932a152d17eb0f77383ea17d6733_one-tree-hill-whittington-tump-as-ive-always-called-thi-flickr_1024-725.jpeg");
+  background-image: url("../../images/navigationComponents/AboutUsPage/chairman.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 200%;

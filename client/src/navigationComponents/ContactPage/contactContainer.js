@@ -7,7 +7,7 @@ import MessagePage from "../../components/MessageContainer/MessageContainer";
 import EndPage from "../../components/EndDescrip_Container/EndContainer";
 import "./contactContainer.css";
 
-import Map from "../../images/Map.png";
+import Map from "../../images/navigationComponents/ContactPage/Map.png";
 class Contact extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);

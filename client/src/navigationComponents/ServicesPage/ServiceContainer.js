@@ -4,6 +4,16 @@ import { Typography, Container, Grid, Paper } from "@material-ui/core";
 import { Check } from "@material-ui/icons";
 import AppBar from "../../components/AppBar/AppBar";
 import EndDescription from "../../components/EndDescrip_Container/EndContainer";
+import Service_Image from "../../images/navigationComponents/ServicesPage/service_title.jpg";
+import Framework1_Image from "../../images/navigationComponents/ServicesPage/framework1.png";
+import Framework2_Image from "../../images/navigationComponents/ServicesPage/framework2.png";
+import Framework3_Image from "../../images/navigationComponents/ServicesPage/framework3.png";
+import Framework4_Image from "../../images/navigationComponents/ServicesPage/framework4.png";
+import Milestone1_Image from "../../images/navigationComponents/ServicesPage/milestone1.png";
+import Milestone2_Image from "../../images/navigationComponents/ServicesPage/milestone2.png";
+import Milestone3_Image from "../../images/navigationComponents/ServicesPage/milestone3.png";
+import Milestone4_Image from "../../images/navigationComponents/ServicesPage/milestone4.png";
+
 import "./ServiceContainer.css";
 
 class Services extends React.Component {
@@ -15,11 +25,7 @@ class Services extends React.Component {
       <React.Fragment>
         <AppBar />
         <div className="services_div">
-          <img
-            alt="service"
-            src="https://img-a.udemycdn.com/course/750x422/1645908_5506_5.jpg"
-            className="services_image"
-          />
+          <img alt="service" src={Service_Image} className="services_image" />
           <Typography className="services_title">SERVICES</Typography>
         </div>
         <br />
@@ -38,7 +44,7 @@ class Services extends React.Component {
             <Grid item md={5} xs={12}>
               <img
                 alt="service1"
-                src="https://www.pngitem.com/pimgs/m/287-2876917_software-testing-hd-png-download.png"
+                src={Framework1_Image}
                 className="services_icon"
               />
               <br />
@@ -53,7 +59,7 @@ class Services extends React.Component {
             <Grid item md={5} xs={12}>
               <img
                 alt="service1"
-                src="https://www.kindpng.com/picc/m/667-6678542_quantitative-descriptive-research-quantitative-research-design-clipart-hd.png"
+                src={Framework2_Image}
                 className="services_icon"
               />
               <br />
@@ -69,7 +75,7 @@ class Services extends React.Component {
             <Grid item md={5} xs={12}>
               <img
                 alt="service1"
-                src="https://pngimage.net/wp-content/uploads/2018/06/publication-png-5.png"
+                src={Framework3_Image}
                 className="services_icon"
               />
               <br />
@@ -85,7 +91,7 @@ class Services extends React.Component {
             <Grid item md={5} xs={12}>
               <img
                 alt="service1"
-                src="https://newcommunityacademy.org/wp-content/uploads/2015/08/icon-parent-academic.png"
+                src={Framework4_Image}
                 className="services_icon"
               />
               <br />
@@ -118,7 +124,7 @@ class Services extends React.Component {
               <Grid item md={6} xs={12}>
                 <img
                   alt="fbarication"
-                  src="https://breakthruweb.com/wp-content/uploads/2019/11/web-design-bg.png"
+                  src={Milestone1_Image}
                   className="services_detail_icons"
                 />
               </Grid>
@@ -164,7 +170,7 @@ class Services extends React.Component {
                 <br />
                 <img
                   alt="research"
-                  src="https://aim2excel.in/wp-content/uploads/Asset-1@2x.png"
+                  src={Milestone2_Image}
                   className="services_detail_icons"
                 />
                 <br />
@@ -256,7 +262,7 @@ class Services extends React.Component {
                 <br />
                 <img
                   alt="research"
-                  src="http://www.pngmart.com/files/7/Support-PNG-Photos.png"
+                  src={Milestone3_Image}
                   className="services_detail_icons"
                 />
                 <br />
@@ -315,7 +321,7 @@ class Services extends React.Component {
               <Grid item md={6} xs={12}>
                 <img
                   alt="publishing"
-                  src="https://pngimage.net/wp-content/uploads/2018/06/publication-png-7.png"
+                  src={Milestone4_Image}
                   className="services_detail_icons"
                 />
               </Grid>

@@ -37,6 +37,12 @@ class AboutUs extends Component {
             <br />
             <br />
             <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </Grid>
         </Grid>
 

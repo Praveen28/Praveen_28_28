@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Typography, Button } from "@material-ui/core";
 import { withRouter } from "react-router-dom";
 
+import CarrerImage from "../../images/navigationComponents/CarrerPage/carrerImage.jpg";
 import AppBar from "../../components/AppBar/AppBar";
 import EndDescription from "../../components/EndDescrip_Container/EndContainer";
 import "./careerContainer.css";
@@ -16,11 +17,7 @@ class Career extends Component {
       <React.Fragment>
         <AppBar />
         <div className="career_div">
-          <img
-            alt="career_image"
-            src="https://cdn.pixabay.com/photo/2016/03/26/13/09/notebook-1280538_1280.jpg"
-            className="career_image"
-          />
+          <img alt="career_image" src={CarrerImage} className="career_image" />
           <Typography className="career_title">CAREER</Typography>
         </div>
         <br />

@@ -14,6 +14,7 @@ import {
 import axios from "axios";
 import AppBar from "../../components/AppBar/AppBar";
 import EndDescription from "../../components/EndDescrip_Container/EndContainer";
+import OrderImage from "../../images/navigationComponents/OrderPage/orderImage.png";
 import "./OrderContainer.css";
 
 class Order extends Component {
@@ -104,11 +105,7 @@ class Order extends Component {
       <React.Fragment>
         <AppBar />
         <div className="order_div">
-          <img
-            alt="order"
-            src="https://kissflow.com/wp-content/uploads/2018/09/Purchase-Order-Management_blog.png"
-            className="order_image"
-          />
+          <img alt="order" src={OrderImage} className="order_image" />
           <Typography className="order_title">ORDER</Typography>
         </div>
         <br />

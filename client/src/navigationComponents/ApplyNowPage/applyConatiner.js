@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { TextField, Button, Grid, Container } from "@material-ui/core";
 
+import ApplyImageBackground from "../../images/navigationComponents/ApplyPage/applyImage.png";
+
 import { withRouter } from "react-router-dom";
 import axios from "axios";
 import { Close } from "@material-ui/icons";
@@ -69,11 +71,7 @@ class ApplyNow extends Component {
       <React.Fragment>
         <AppBar />
         <br />
-        <img
-          alt="apply"
-          src="https://www.pngitem.com/pimgs/m/49-498352_join-us-illustration-hd-png-download.png"
-          className="apply_image"
-        />
+        <img alt="apply" src={ApplyImageBackground} className="apply_image" />
         <Close
           className="close_button"
           onClick={() => {

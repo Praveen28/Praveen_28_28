@@ -3,6 +3,9 @@ import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import { Container, Typography, Grid, Paper } from "@material-ui/core";
 
+import Product1_Image from "../../images/components/Product_Container/product1.png"
+import Product2_Image from "../../images/components/Product_Container/product2.png"
+import Product3_Image from "../../images/components/Product_Container/product3.jpg"
 import "./ProductContainer.css";
 
 class ProductContainer extends Component {
@@ -28,7 +31,7 @@ class ProductContainer extends Component {
                 <img
                   className="product_image"
                   alt="product1"
-                  src="https://www.researchgate.net/profile/Mahfuz_Rahman8/publication/325284168/figure/fig1/AS:628969061769217@1526969318949/Microstrip-line-feeding-for-the-Patch.png"
+                  src={Product1_Image}
                 />
 
                 <Typography className="text_1">
@@ -51,7 +54,7 @@ class ProductContainer extends Component {
                 <img
                   className="product_image"
                   alt="product1"
-                  src="https://www.researchgate.net/profile/HR_Hassani/publication/255570558/figure/fig1/AS:297915227623424@1448039933298/Configuration-of-the-proposed-horn-antenna.png"
+                  src={Product2_Image}
                 />
 
                 <Typography className="text_1">
@@ -74,7 +77,7 @@ class ProductContainer extends Component {
                 <img
                   className="product_image"
                   alt="product1"
-                  src="https://www.lectrosonics.com/media/com_hikashop/upload/thumbnails/500x570f/arg2.jpg"
+                  src={Product3_Image}
                 />
 
                 <Typography className="text_1">

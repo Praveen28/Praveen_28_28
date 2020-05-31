@@ -1,7 +1,13 @@
 import React, { Component } from "react";
-import { TextField, Button, Grid, Container } from "@material-ui/core";
+import {
+  TextField,
+  Button,
+  Grid,
+  Container,
+  Typography,
+} from "@material-ui/core";
 
-import ApplyImageBackground from "../../images/navigationComponents/ApplyPage/applyImage.png";
+import ApplyImageBackground from "../../images/navigationComponents/ApplyPage/grass.png";
 
 import { withRouter } from "react-router-dom";
 import axios from "axios";
@@ -50,7 +56,8 @@ class ApplyNow extends Component {
       !this.state.name ||
       !this.state.emailid ||
       !this.state.mobilenumber ||
-      !this.state.message
+      !this.state.message ||
+      !this.state.file
     ) {
       alert("Fill in all the details");
     } else {
@@ -136,6 +143,10 @@ class ApplyNow extends Component {
             </Grid>
             <Grid item xs={12}>
               <div>
+                <Typography style={{ position: "relative" }}>
+                  UPLOAD YOUR RESUME
+                </Typography>
+                <br />
                 <input
                   className="apply_input"
                   type="file"

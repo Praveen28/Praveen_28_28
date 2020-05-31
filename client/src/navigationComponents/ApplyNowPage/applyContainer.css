@@ -29,8 +29,9 @@
 
 .apply_input {
   position: relative;
+  content: 'Select some files';
+  display: inline-block;
   border: 1px solid #999;
-  border-width: 100%;
   border-radius: 3px;
   padding: 5px 8px;
   outline: none;

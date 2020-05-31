@@ -15,6 +15,7 @@ class ApplyNow extends Component {
     emailid: "",
     mobilenumber: "",
     message: "",
+    file: "",
   };
 
   handleName = (e) => {
@@ -37,6 +38,13 @@ class ApplyNow extends Component {
       message: e.currentTarget.value,
     });
   };
+
+  handleFile = (e) => {
+    this.setState({
+      file: e.target.files[0],
+    });
+  };
+
   handleSubmit = () => {
     if (
       !this.state.name ||
@@ -46,16 +54,16 @@ class ApplyNow extends Component {
     ) {
       alert("Fill in all the details");
     } else {
-      const submit = {
-        name: this.state.name,
-        emailid: this.state.emailid,
-        mobilenumber: this.state.mobilenumber,
-        message: this.state.message,
-      };
+      const formdata = new FormData();
+      formdata.append("name", this.state.name);
+      formdata.append("emailid", this.state.emailid);
+      formdata.append("mobilenumber", this.state.mobilenumber);
+      formdata.append("message", this.state.message);
+      formdata.append("file", this.state.file);
       axios
-        .post("/apply", submit)
+        .post("http://localhost:8000/apply", formdata)
         .then((res) => {
-          alert("We will contact as soon as possible");
+          alert(res.data);
           window.location.reload(false);
         })
         .catch((err) => console.log(err));
@@ -126,6 +134,14 @@ class ApplyNow extends Component {
                 }}
               />
             </Grid>
+            <Grid item xs={12}>
+              <input
+                className="apply_input"
+                type="file"
+                onChange={(e) => this.handleFile(e)}
+              />
+            </Grid>
+
             <Grid item xs={4}>
               <Button
                 fullWidth

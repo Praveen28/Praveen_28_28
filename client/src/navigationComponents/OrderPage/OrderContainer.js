@@ -28,6 +28,10 @@ class Order extends Component {
     description: "",
   };
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   handleName = (e) => {
     this.setState({
       name: e.currentTarget.value,
@@ -147,7 +151,7 @@ class Order extends Component {
                   value={this.state.type}
                   onChange={this.handleType}
                 >
-                  <MenuItem value="None">
+                  <MenuItem value="">
                     <em>None</em>
                   </MenuItem>
                   <MenuItem value="Microstrip antenna">

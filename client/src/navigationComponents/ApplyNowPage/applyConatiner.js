@@ -61,7 +61,7 @@ class ApplyNow extends Component {
       formdata.append("message", this.state.message);
       formdata.append("file", this.state.file);
       axios
-        .post("http://localhost:8000/apply", formdata)
+        .post("/apply", formdata)
         .then((res) => {
           alert(res.data);
           window.location.reload(false);

@@ -43,7 +43,7 @@ router.post("/", upload.single("file"), (req, res) => {
 
     db.insert(order, (err, succ) => {
       if (err) throw err;
-      else res.send("Your response has been added");
+      else res.json("Your response has been added");
     });
   }
 });

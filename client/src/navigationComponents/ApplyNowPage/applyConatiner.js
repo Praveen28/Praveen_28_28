@@ -135,11 +135,13 @@ class ApplyNow extends Component {
               />
             </Grid>
             <Grid item xs={12}>
-              <input
-                className="apply_input"
-                type="file"
-                onChange={(e) => this.handleFile(e)}
-              />
+              <div>
+                <input
+                  className="apply_input"
+                  type="file"
+                  onChange={(e) => this.handleFile(e)}
+                />
+              </div>
             </Grid>
 
             <Grid item xs={4}>

@@ -6,7 +6,7 @@ import { withRouter } from "react-router-dom";
 import "./AppBar.css";
 import SideDrawer from "../SideDrawer/SideDrawer";
 import BackDrop from "../BackDrop/BackDrop";
-import Logo from "../../images/antenna.png";
+import Logo from "../../images/components/AppBar/antenna.png";
 
 class Appbar extends Component {
   state = {

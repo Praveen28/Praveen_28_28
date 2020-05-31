@@ -4,6 +4,7 @@ import { Typography, Container, Grid, Paper } from "@material-ui/core";
 import { Check } from "@material-ui/icons";
 import AppBar from "../../components/AppBar/AppBar";
 import EndDescription from "../../components/EndDescrip_Container/EndContainer";
+import PatentProcessPDF from "../../images/Patent Process.pdf";
 import Service_Image from "../../images/navigationComponents/ServicesPage/service_title.jpg";
 import Framework1_Image from "../../images/navigationComponents/ServicesPage/framework1.png";
 import Framework2_Image from "../../images/navigationComponents/ServicesPage/framework2.png";
@@ -398,6 +399,16 @@ class Services extends React.Component {
                         Sentimental analysis
                       </Typography>
                     </Grid>
+                    <a
+                      style={{
+                        textDecoration: "none",
+                      }}
+                      href={PatentProcessPDF}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Click here to view the Patent rocess
+                    </a>
                   </Grid>
                 </div>
               </Grid>

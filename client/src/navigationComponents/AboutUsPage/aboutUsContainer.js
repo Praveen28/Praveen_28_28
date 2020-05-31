@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Typography, Grid, Container, Paper } from "@material-ui/core";
 import { Visibility, Check, ControlCamera, AcUnit } from "@material-ui/icons";
+import ChairmanImage from "../../images/navigationComponents/AboutUsPage/Jones.jpeg";
 
 import EndDescription from "../../components/EndDescrip_Container/EndContainer";
 import AppBar from "../../components/AppBar/AppBar";
@@ -121,15 +122,24 @@ class AboutUs extends Component {
             </Typography>
             <br />
             <Typography className="chaiman_message">
-              "In the times of mushrooming IT companies, Antenna Design is meant
-              to grow to be a gigantic tree not competing for mere space or
-              water, but to transcend the natural barriers and stand tall as a
-              towering symbol of grandeur and elegance. It should create and
-              sustain an ecosystem of integrity and trust, the impact of which
-              can be felt by its employees and customers alike. The positive
-              synergy that will hold the elements of the company together at
-              various levels is sure to reflect in the quality of the services
-              and offerings."
+              Thank you very much for visiting the µ-maker website. In line with
+              our brand message of “µ-maker makes contributions to society by
+              creating Third Eye for Research,” the µ-maker group is creating
+              and offering various products, based on which we have conducted
+              business in wide-ranging fields to make contributions to the
+              general public. µ-maker is drawn through its superior
+              technological capabilities centring around antenna to develop and
+              offer excellent-quality products of outstanding performance in
+              newer areas such as the Surveillance, Automotive and other
+              applications. In this way, µ-maker makes contributions to progress
+              in research. The µ-maker group will continue to focus on further
+              improving our technical capabilities as a manufacturer of
+              precision RF products, and on tackling fresh challenges towards
+              advanced “Third Eye for Research” that assures a sense of
+              excitement, trust and security to our customers. We at µ-maker
+              group, will be united in our efforts to continue meeting in good
+              faith the expectations of all of our stakeholders. We would like
+              to cordially ask you for your continued invaluable support.
             </Typography>
             <br />
             <br />
@@ -149,11 +159,7 @@ class AboutUs extends Component {
           <Paper elevation={15} className="about_paper">
             <Grid container spacing={2}>
               <Grid item md={2} xs={12}>
-                <img
-                  alt="vision"
-                  src="https://www.freepngimg.com/thumb/chess/22811-8-chess.png"
-                  className="photo_icon"
-                />
+                <img alt="vision" src={ChairmanImage} className="photo_icon" />
               </Grid>
               <Grid item md={10} xs={12}>
                 <br />
@@ -172,15 +178,15 @@ class AboutUs extends Component {
                     marginLeft: "1rem",
                   }}
                 >
-                  A thorough finance professional and an entrepreneur, currently
-                  head of finance of an organization that is providing support
-                  services to Energy Industries in Doha, Qatar. <br />
+                  "Third Eye for Research" that assure a sense of excitement,
+                  trust and security
                   <br />
-                  An Associate Member of ICAI and a qualified Cost Accountant
-                  with over 14 yrs of experience and specifically over 10 years
-                  in the middle east operating in the spheres of automobile,
-                  manufacturing, trading and real estate with excellence in
-                  business support services.
+                  <br />
+                  An Associate Member of NIIT research scholar team and an 8
+                  years of experience in the field of antenna design and
+                  fabrication and specifically over 3 years in the middles east
+                  opertaing in the spheres of nano antenna, manufacturing and
+                  involving in the process of fabrication of nano antenna.
                 </Typography>
               </Grid>
             </Grid>

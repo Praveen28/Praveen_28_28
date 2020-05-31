@@ -40,6 +40,11 @@ router.post("/", upload.single("file"), (req, res) => {
       fileName:file_name,
       file: new Buffer.from(encode_file, "base64"),
     };
+
+    db.insert(order, (err, succ) => {
+      if (err) throw err;
+      else res.send("Your response has been added");
+    });
   }
 });
 
